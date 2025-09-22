@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*, a{
+  margin: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+  color: aliceblue;
+}
+
+.ngilo-user{
+  background: gray;
+  background: linear-gradient(180dg, rgba(138, 42, 155, 1) 0% rgba(199, 115, 87, 1) 73% rgba(219, 198, 7, 1) 100%);
+  height: 728px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.user-login{
+  background: rgb(7, 177, 219);
+  box-shadow: 0 8px 32px 0 rgb(65, 58, 58);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(1212.5px);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  height: 200px;
+}
+.user-login > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-login > form > input{
+  width: 395px;
+  border: 0px;
+  border-radius: 4px;
+  height: 26px;
+}
+.user-btn{
+  margin-top: 10px;
+  width: 400px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: black;
+  height: 30px;
+  color:aliceblue;
+  padding: 1px;
+}
+.center-block {
+  text-align: center;
+}
+.linkSignUp {
+  display: block;
+  margin-top: 20px;
+  margin-left: 340px;
+  color: aliceblue;
+}
+.SignUp {
+  text-align: center;
+}
+.signupbtn {
+  margin-top: 10px;
+  width: 400px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: black;
+  height: 30px;
+  color:aliceblue;
+  padding: 1px;
+}
+.linkLogin {
+  display: block;
+  margin-top: 20px;
+  margin-left: 340px;
+  color: aliceblue;
+}
